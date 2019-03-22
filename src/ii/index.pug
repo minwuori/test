@@ -1,0 +1,32 @@
+doctype html
+html(lang="ru")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible" content="ie=edge")
+		title Funbox
+		meta(name="description" content="")
+		link(href="/ii/css/funbox/style.css" rel="stylesheet")
+
+		script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous")
+		script(src="https://api-maps.yandex.ru/2.1/?load=package.standard&lang=ru-RU" type="text/javascript")
+		script(src="/ii/js/funbox/script.js" type="text/javascript")
+	body
+		.wrap.wrap__backgroung
+			.header 
+				.container Тут шапка
+			.route-editor
+				.container
+					.sidebar
+						.content.content__backgroung
+							input.data(type="text" name="piece" placeholder="Введите точку маршрута")
+							.list
+								input.data(type="text" name="piece" placeholder="Введите точку маршрута")
+								input.data(type="text" name="piece" placeholder="Введите точку маршрута")
+								input.data(type="text" name="piece" placeholder="Введите точку маршрута")
+								input.data(type="text" name="piece" placeholder="Введите точку маршрута")
+					.map
+						.content.content__backgroung
+							#map
+					
+

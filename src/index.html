@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funbox</title>
+    <meta name="description" content="">
+    <link href="/ii/css/funbox/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?load=package.standard&amp;lang=ru-RU" type="text/javascript"></script>
+    <script src="/ii/js/funbox/script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="wrap wrap__backgroung">
+      <div class="header"> 
+        <div class="container">Тут шапка</div>
+      </div>
+      <div class="route-editor">
+        <div class="container">
+          <div class="sidebar">
+            <div class="content content__backgroung">
+              <input class="data" type="text" name="piece" placeholder="Введите точку маршрута">
+              <div class="list">
+                <input class="data" type="text" name="piece" placeholder="Введите точку маршрута">
+                <input class="data" type="text" name="piece" placeholder="Введите точку маршрута">
+                <input class="data" type="text" name="piece" placeholder="Введите точку маршрута">
+                <input class="data" type="text" name="piece" placeholder="Введите точку маршрута">
+              </div>
+            </div>
+          </div>
+          <div class="map">
+            <div class="content content__backgroung">
+              <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
